@@ -119,6 +119,110 @@ def find_slant(img):
         return 10000000000
     return (y2-y1)/(x2-x1)
 
+def core_feature(img):
+ 	h,w=img.shape[:2]
+ 	rows=h
+ 	cols=w
+ 	count=0
+ 	pixel_count=0
+	for i in range(rows):
+ 		for j in range (cols):
+ 			val=img[i][j]
+ 			pixel_count+=1
+ 			flag=0
+ 			if i-1>=0 and i+1<rows and j-1>=0 and j+1<cols:
+ 				if val<img[i-1][j]:
+ 					flag=1
+ 				if val<img[i-1][j-1]:
+ 					flag=1
+ 				if val<img[i-1][j+1]:
+ 					flag=1
+ 				if val<img[i+1][j]:
+ 					flag=1
+ 				if val<img[i+1][j-1]:
+ 					flag=1
+ 				if val<img[i+1][j+1]:
+ 					flag=1
+ 				if val<img[i][j-1]:
+ 					flag=1
+ 				if val<img[i][j+1]:
+ 					flag=1
+ 			else:
+ 				flag=1
+ 			if flag==0:
+ 				count+=1
+
+	return count/pixel_count
+
+def signature_outline(img):
+	h,w=img.shape[:2]
+ 	rows=h
+ 	cols=w
+ 	gmin=500
+ 	gmax=-1
+ 	for i in range(rows):
+ 		for j in range (cols):
+ 			if img[i][j]>gmax:
+ 				gmax=img[i][j]
+ 			if img[i][j]<gmin and img[i][j]!=0:
+ 				gmin=img[i][j]
+
+ 	theta_outline=gmin+0.25*(gmax-gmin)
+ 	count=0
+ 	pixel_count=0
+	for i in range(rows):
+ 		for j in range (cols):
+ 			val=img[i][j]
+ 			pixel_count+=1
+ 			flag=0
+ 			if i-1>=0 and i+1<rows and j-1>=0 and j+1<cols and val>theta_outline:
+ 				if val<img[i-1][j]:
+ 					flag=1
+ 				if val<img[i-1][j-1]:
+ 					flag=1
+ 				if val<img[i-1][j+1]:
+ 					flag=1
+ 				if val<img[i+1][j]:
+ 					flag=1
+ 				if val<img[i+1][j-1]:
+ 					flag=1
+ 				if val<img[i+1][j+1]:
+ 					flag=1
+ 				if val<img[i][j-1]:
+ 					flag=1
+ 				if val<img[i][j+1]:
+ 					flag=1
+ 			else:
+ 				flag=1
+ 			if flag==0:
+ 				count+=1
+ 	return count/pixel_count
+
+def high_pressure(img):
+	h,w=img.shape[:2]
+ 	rows=h
+ 	cols=w
+ 	gmin=500
+ 	gmax=-1
+ 	for i in range(rows):
+ 		for j in range (cols):
+ 			if img[i][j]>gmax:
+ 				gmax=img[i][j]
+ 			if img[i][j]<gmin and img[i][j]!=0:
+ 				gmin=img[i][j]
+
+ 	theta_hpr=gmin+0.75*(gmax-gmin)
+ 	count=0
+ 	pixel_count=0
+ 	for i in range(rows):
+ 		for j in range (cols):
+ 			pixel_count+=1
+ 			if img[i][j]>theta_hpr:
+ 				count+=1
+ 	
+ 	return count/pixel_count			
+
+
 # print("Mass Ratio -> ",find_mass(mask))
 # print("closed area -> ",find_closed_area(mask))
 # print("centroid ratio -> ",find_centroid_ratio(mask))
@@ -131,11 +235,18 @@ def find_slant(img):
 
 
 def get_features(img_name, name):
-    img_path = "Signatures By Names/"+name+"/"+img_name+".jpg"
-    print(img_path)
-    img = cv2.imread(img_path)
-    # cv2.imshow('photo',img)
-    # cv2.waitKey(0)
-    img = preprocess(img)
-    true_features = [ find_aspect_ratio(img), find_mass(img) , find_closed_area(img) , find_centroid_ratio(img) , find_slant(img)]
-    return true_features
+	img_path = "Signatures By Names/"+name+"/"+img_name+".jpg"
+	# print(img_path)
+	print name," => ",img_name
+	img = cv2.imread(img_path)
+	img_bw = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+	temp = [core_feature(img_bw),signature_outline(img_bw)]
+	cv2.imshow('photo',img)
+	cv2.waitKey(500)
+	cv2.destroyAllWindows()
+
+	img = preprocess(img)
+
+	true_features = [ find_aspect_ratio(img), find_mass(img) , find_closed_area(img) , find_centroid_ratio(img) , find_slant(img)]
+	true_features.extend(temp)
+	return true_features

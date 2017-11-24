@@ -1,0 +1,191 @@
+img_008_1	Vijay	1
+img_013_8	Vijay	-1
+img_012_1	Vijay	1
+img_007_4	Vijay	-1
+img_009_2	Vijay	1
+img_002_0	Vijay	-1
+img_004_9	Vijay	1
+img_010_0	Vijay	-1
+img_003_0	Vijay	1
+img_011_2	Vijay	-1
+img_006_11	Vijay	-1
+img_014_14	Vijay	-1
+img_005_8	Vijay	1
+img_005_1	Pranav Arora	1
+img_014_9	Pranav Arora	1
+img_013_14	Pranav Arora	1
+img_004_2	Pranav Arora	1
+img_009_13	Pranav Arora	1
+img_008_0	Pranav Arora	1
+img_012_13	Pranav Arora	1
+img_007_5	Pranav Arora	1
+img_015_2	Pranav Arora	1
+img_003_5	Pranav Arora	1
+img_006_0	Pranav Arora	1
+img_013_6	Ayush Agrawal	1
+img_009_6	Ayush Agrawal	1
+img_008_3	Ayush Agrawal	1
+img_002_8	Ayush Agrawal	1
+img_007_10	Ayush Agrawal	1
+img_014_8	Ayush Agrawal	1
+img_005_10	Ayush Agrawal	1
+img_004_10	Ayush Agrawal	1
+img_012_11	Ayush Agrawal	1
+img_004_6	Hiteshi Jain	1
+img_012_15	Hiteshi Jain	1
+img_013_10	Hiteshi Jain	1
+img_009_11	Hiteshi Jain	1
+img_003_2	Hiteshi Jain	1
+img_005_12	Hiteshi Jain	1
+img_011_10	Hiteshi Jain	1
+img_007_15	Hiteshi Jain	1
+img_014_6	Hiteshi Jain	1
+img_008_7	Dinesh Maurya	1
+img_004_5	Jaspreet Kaur	1
+img_009_10	Jaspreet Kaur	1
+img_006_9	Jaspreet Kaur	-1
+img_003_1	Jaspreet Kaur	1
+img_013_9	Jaspreet Kaur	1
+img_014_5	Jaspreet Kaur	1
+img_011_9	Jaspreet Kaur	1
+img_012_16	Jaspreet Kaur	1
+img_007_14	Jaspreet Kaur	1
+img_005_11	Jaspreet Kaur	-1
+img_008_9	Jaspreet Kaur	1
+img_002_13	Jaspreet Kaur	1
+img_006_7	Ganesh B.Patil	1
+img_003_3	Ganesh B.Patil	1
+img_009_7	Ganesh B.Patil	1
+img_008_6	Ganesh B.Patil	1
+img_014_4	Ganesh B.Patil	1
+img_013_12	Ganesh B.Patil	1
+img_012_7	Ganesh B.Patil	1
+img_004_11	Ganesh B.Patil	1
+img_010_11	Ganesh B.Patil	1
+img_005_13	Ganesh B.Patil	1
+img_015_8	Ganesh B.Patil	1
+img_011_6	Ganesh B.Patil	1
+img_013_1	Neel Shah	1
+img_015_4	Neel Shah	1
+img_006_1	Neel Shah	1
+img_012_3	Neel Shah	1
+img_004_7	Neel Shah	1
+img_008_10	Neel Shah	1
+img_002_3	Neel Shah	1
+img_011_8	Neel Shah	1
+img_005_6	Neel Shah	1
+img_007_1	Neel Shah	1
+img_009_0	Neel Shah	1
+img_010_3	Neel Shah	1
+img_004_8	Annuay.J	1
+img_008_16	Annuay.J	1
+img_015_5	Annuay.J	1
+img_011_11	Annuay.J	1
+img_009_12	Annuay.J	1
+img_007_11	Annuay.J	1
+img_010_2	Annuay.J	1
+img_012_9	Annuay.J	-1
+img_014_10	Annuay.J	1
+img_002_2	Annuay.J	1
+img_002_9	Bharat Singh	1
+img_009_5	Bharat Singh	1
+img_005_4	Bharat Singh	1
+img_008_4	Bharat Singh	1
+img_013_7	Bharat Singh	1
+img_007_7	Bharat Singh	1
+img_015_3	Bharat Singh	1
+img_010_7	Bharat Singh	1
+img_012_6	Bharat Singh	1
+img_014_3	Bharat Singh	1
+img_011_4	Bharat Singh	1
+img_004_3	Bharat Singh	1
+img_005_14	Daval Pargal	1
+img_014_12	Daval Pargal	1
+img_006_3	Daval Pargal	1
+img_004_12	Daval Pargal	1
+img_003_4	Daval Pargal	1
+img_012_14	Daval Pargal	1
+img_002_4	Daval Pargal	1
+img_015_1	Daval Pargal	1
+img_008_15	Daval Pargal	1
+img_013_13	Daval Pargal	1
+img_010_4	Daval Pargal	1
+img_011_7	Daval Pargal	1
+img_008_11	Sachin Mandowara	1
+img_007_2	Sunil Choudhary	1
+img_013_2	Sunil Choudhary	1
+img_008_11	Sunil Choudhary	1
+img_012_4	Sunil Choudhary	1
+img_009_1	Sunil Choudhary	1
+img_006_2	Sunil Choudhary	1
+img_005_7	Sunil Choudhary	1
+img_008_13	Sudhir Pratap Yadav	1
+img_014_7	G Sravan	1
+img_015_7	G Sravan	1
+img_012_12	G Sravan	1
+img_002_5	G Sravan	1
+img_013_3	G Sravan	1
+img_006_4	G Sravan	1
+img_007_12	G Sravan	1
+img_008_17	G Sravan	1
+img_004_13	G Sravan	1
+img_010_10	G Sravan	1
+img_009_14	G Sravan	1
+img_007_13	Varun Kumar	1
+img_006_5	Varun Kumar	1
+img_013_5	Varun Kumar	1
+img_015_6	Varun Kumar	1
+img_012_5	Varun Kumar	1
+img_010_6	Varun Kumar	1
+img_002_7	Varun Kumar	1
+img_009_4	Varun Kumar	1
+img_005_3	Varun Kumar	1
+img_008_5	Varun Kumar	1
+img_011_5	Varun Kumar	1
+img_014_2	Varun Kumar	1
+img_004_15	Varun Kumar	1
+img_013_11	Anurag Sanyal	1
+img_008_14	Anurag Sanyal	1
+img_002_11	Anurag Sanyal	1
+img_014_13	Anurag Sanyal	1
+img_012_2	Anurag Sanyal	1
+img_009_9	Anurag Sanyal	1
+img_007_0	Anurag Sanyal	1
+img_011_1	Anurag Sanyal	1
+img_005_2	Anurag Sanyal	1
+img_004_1	Anurag Sanyal	1
+img_015_10	B.Sree Siddharth	1
+img_004_4	B.Sree Siddharth	1
+img_010_9	B.Sree Siddharth	1
+img_014_11	B.Sree Siddharth	1
+img_008_8	B.Sree Siddharth	1
+img_007_8	B.Sree Siddharth	1
+img_005_5	B.Sree Siddharth	1
+img_002_6	B.Sree Siddharth	1
+img_013_4	B.Sree Siddharth	1
+img_006_6	B.Sree Siddharth	1
+img_012_8	B.Sree Siddharth	1
+img_011_0	Dhruv Sharma	1
+img_004_0	Dhruv Sharma	1
+img_012_0	Dhruv Sharma	1
+img_007_3	Dhruv Sharma	1
+img_010_1	Dhruv Sharma	1
+img_009_3	Dhruv Sharma	1
+img_006_10	Dhruv Sharma	1
+img_005_0	Dhruv Sharma	1
+img_013_0	Dhruv Sharma	1
+img_014_0	Dhruv Sharma	1
+img_015_0	Dhruv Sharma	1
+img_013_15	Akshay Chaudhari	1
+img_006_8	Akshay Chaudhari	1
+img_012_10	Akshay Chaudhari	1
+img_007_6	Akshay Chaudhari	1
+img_015_9	Akshay Chaudhari	1
+img_005_9	Akshay Chaudhari	1
+img_011_3	Akshay Chaudhari	1
+img_008_2	Akshay Chaudhari	1
+img_007_9	Akshay Chaudhari	1
+img_009_8	Akshay Chaudhari	1
+img_004_14	Akshay Chaudhari	1
+img_010_8	Akshay Chaudhari	1
+img_002_10	Akshay Chaudhari	1

@@ -11,3 +11,13 @@ img_011_2	Vijay	-1
 img_012_1	Vijay	1
 img_013_8	Vijay	-1
 img_014_14	Vijay	-1
+img_002_2	Annuay.J	1
+img_004_8	Annuay.J	-1
+img_007_11	Annuay.J	-1
+img_008_16	Annuay.J	1
+img_009_12	Annuay.J	-1
+img_010_2	Annuay.J	1
+img_011_11	Annuay.J	1
+img_012_9	Annuay.J	-1
+img_014_10	Annuay.J	1
+img_015_5	Annuay.J	1

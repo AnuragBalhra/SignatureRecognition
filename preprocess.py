@@ -18,6 +18,7 @@ def preprocess(img):
 #     cv2.destroyAllWindows()
 
     # Gaussian Blur
+    # blur_img = cv2.GaussianBlur(img2gray,(5,5),0)
     blur_img = cv2.GaussianBlur(img2gray,(15,15),0)
 
 #     cv2.imshow('Gausian Blur Signature',blur_img)
@@ -27,6 +28,7 @@ def preprocess(img):
     # Dilation
     kernel = np.ones((3,3),np.uint8)
     dilation = cv2.dilate(blur_img,kernel,iterations = 3)
+    # dilation = cv2.dilate(blur_img,kernel,iterations = 1)
 
 #     cv2.imshow('Dilated Signature',dilation)
 #     cv2.waitKey(0)

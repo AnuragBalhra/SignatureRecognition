@@ -48,6 +48,9 @@ actual_output = {}
 
 input_file = open('train_images.txt','r')
 for line in input_file:
+    if(line[0]=='\n' or line[0]=='#'):
+        continue
+    print line.split('\t')
     img_name, person_name, valid = line.split('\t')
     features[person_name] = []
     actual_output[person_name] = []
@@ -58,6 +61,9 @@ print "init features ",features
 input_file = open('train_images.txt','r')
 
 for line in input_file:
+    print line
+    if(line[0]=='\n' or line[0]=='#'):
+        continue
     img_name, person_name, valid = line.split('\t')
     img_feature = get_features(img_name, person_name)
     if(valid[0]=='1'):
@@ -87,8 +93,7 @@ for person,feature in features.items():
     predicted_output = clf.predict(feature)
     print "predicted output for trainig data : ",predicted_output
 print svms
-# exit()
-# print "world"
+
 final_avg = {x:np.mean(y,axis=0) for x,y in features.items()}
 final_std = {x:np.std(y, axis=0) for x,y in features.items()}
 
